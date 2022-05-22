@@ -1,0 +1,38 @@
+<div >
+  <mat-toolbar  colr="primary">
+    <mat-toolbar-row>
+    <button mat-icon-button> 
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+      <mat-form-field>
+        <mat-label>dark</mat-label>
+          <mat-select>
+            <mat-option  value="dark">dark</mat-option>
+            <mat-option value="light">light</mat-option>
+          </mat-select>
+          </mat-form-field>
+      <button mat-raised-button class="account">A</button>
+      <mat-card>
+        <span>admin@gmail.com</span><br>
+        <span>Admin</span>
+      </mat-card>
+    
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<button mat-raised-button color="primary">GENERATE PAYSLIPS</button>
+
+<mat-card >
+  <h2 >Available Payrolls</h2>
+  <mat-form-field>
+    <mat-label>year-Month 2022-04</mat-label>
+  <mat-select>
+    <mat-option value="year-Month 2022-04">year-Month 2022-04</mat-option>
+    <mat-option value="year-Month 2022-05">year-Month 2022-05</mat-option>
+  </mat-select>
+  </mat-form-field>
+  
+</mat-card>
+
+  
+</div>
+
